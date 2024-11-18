@@ -41,12 +41,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.social {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  justify-content: center;
-}
+
 .socials-link {
   display: flex;
   justify-content: center;
@@ -321,6 +316,12 @@ img {
 }
 .social-conteiner {
   padding-bottom: 32px;
+}
+.social {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
 }
 /* #endregion */
 /* #region our portfolio */
