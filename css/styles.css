@@ -99,6 +99,7 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   margin-right: 76px;
+  position: relative;
 }
 .header-list-link {
   color: #2e2f42;
