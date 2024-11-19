@@ -108,25 +108,24 @@ img {
   display: flex;
   gap: 40px;
 }
-.studio {
+.header-link-studio {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio::after {
-  content: "";
-  width: 100%;
+.header-link-studio::after {
   height: 4px;
   background-color: #404bbf;
   position: absolute;
   left: 0;
   bottom: -1px;
   border-radius: 2px;
+  content: "";
+  width: 100%;
 }
 .header-list-link {
   position: relative;
 }
 .header-list-link::after {
-  content: normal;
   position: absolute;
   width: 100%;
   left: 0;
